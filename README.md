@@ -1,7 +1,10 @@
-# Node-JS-Simple-QR-Code-Generator-and-Download
+https://www.youtube.com/watch?v=nplH3BzKHPk&ab_channel=TrainWithShubham
+ to do list qr node
 
-npm package used : https://www.npmjs.com/package/qrcode
 
-In this project user can generate the QR code and download the file.
-# Test browser image
-![img test](https://github.com/kcsrinivasa/Node-JS-Simple-QR-Code-Generator-and-Download/blob/main/store/Screen%20Shot%202020-12-25%20at%205.00.52%20PM.png)
+new issue faced  : container stops immediately upon running.
+
+previous issue: contained stopped and hence new container will same name couldn't be built. 
+sol: added docker container prune to the shell script(jenkins job configuration)
+
+location to locate files: /var/lib/jenkins/workspace/qrGenerator
